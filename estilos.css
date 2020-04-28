@@ -1,0 +1,457 @@
+/* ******************** fuentes ******************** */
+@font-face {
+    font-family: "Century Gothic";
+    src: url(fonts/gothic.TTF);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Poppins Medium";
+    src: url(fonts/Poppins-Regular.ttf);
+    font-weight: 500;
+
+}
+
+/* ******************** estilos ******************** */
+
+body {
+    color: #2379ac;
+    font-family: "Century Gothic";
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #ffa025;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.22;
+    margin-top: 4px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold !important;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Extra Small devices (0px - 575px) */
+
+/* ******************** cabezera ******************** */
+
+#cabezera {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.item-cabezera {
+    margin: auto;
+}
+
+.logo-cabezera {
+    margin-top: 17px;
+    margin-bottom: 26px;
+}
+
+/* navbar */
+
+.navbar-toggler {
+    margin: auto;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-link {
+    color: #2379ac !important;
+}
+
+a:hover {
+    text-decoration: underline #2379ac !important;
+    font-weight: bold;
+}
+
+/* banner */
+
+.banner {
+    width: 100%;
+}
+
+/* datos del banner */
+
+.banner-datos {
+    background-color: #ffa025;
+    height: 51px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.banner-datos {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    flex: 1 1;
+}
+
+.banner-datos img {
+    height: 20px;
+}
+
+.banner-datos p {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin: auto 0 auto 12px;
+    line-height: 16px;
+}
+
+.banner-telefono {
+    margin-right: 32px !important;
+}
+
+/* imagen del banner */
+
+.banner-imagen {
+    background-image: url('imagenes/cabezera-xs.png');
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ******************** paquetes exclusivos ******************** */
+
+#paquetes-exclusivos {
+    margin-top: 26px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paquete1 {
+    width: 100%;
+    margin-top: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paq1 {
+    width: 480px;
+    max-width: 100%;
+    height: 260px;
+    background-color: #BCBCBC;
+}
+
+.paquete1 h2 {
+    margin-top: 7px;
+}
+
+.paquete1 p {
+    color: #2379ac;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.paquete2 {
+    background-image: url('imagenes/paquete2.png');
+    max-width: 100%;
+    width: 440px;
+    height: 140px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.paq2,
+.paq3 {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 49px;
+    text-align: center;
+    width: 100%;
+}
+
+.paq2 h2,
+.paq3 h2 {
+    margin-bottom: 0;
+}
+
+.paq2 p,
+.paq3 p {
+    color: white;
+    font-size: 13px;
+}
+
+.paquete3 {
+    margin-top: 11px;
+    max-width: 100%;
+    background-image: url('imagenes/paquete3.png');
+    width: 440px;
+    height: 140px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-paquetes {
+    margin-top: 19px;
+    width: 198px;
+    height: 35px;
+    border-radius: 18px;
+    background-color: #ffa025;
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-width: 0;
+}
+
+/* ******************** patrocinadores ******************** */
+
+#patrocinadores {
+    margin-top: 25px;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #fcbc6a;
+    padding: 18px 15px 13px 15px;
+    width: 100%;
+}
+
+.patrocinador-img {
+    text-align: center;
+    margin-top: 8.5px;
+}
+
+/* ******************** aside ******************** */
+
+aside {
+    margin-top: 15px;
+}
+
+hr {
+    border-color: #fcbc6a;
+    border-width: 2px;
+    max-width: 100%;
+    width: 430px;
+}
+
+/* visto por otros */
+
+.visto-otros {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.visto-otros img {
+    margin: 10px;
+
+}
+
+/* beneficios */
+
+.beneficios {
+    margin-top: 35px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.beneficio {
+    background-color: #2379ac;
+    height: 60px;
+    width: 240px;
+    border: 1px solid white;
+
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficio-izq {
+    border-left: 0px;
+}
+
+.beneficio-der {
+    border-right: 0px;
+}
+
+.beneficio a {
+    color: white;
+    font-family: 'Poppins Medium';
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+/* ////////////////// querys //////////////// */
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    /* ******************** banner ******************** */
+
+    /* imagen del banner */
+
+    .banner-imagen {
+        background-image: url('imagenes/cabezera-sm.png');
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* ******************** paquetes exlusivos ******************** */
+
+    .paq1 {
+        width: 533px;
+    }
+
+    /* ******************** aside ******************** */
+
+    hr {
+        width: 533px;
+    }
+
+    .visto-otros img {
+        width: 209px;
+        height: 97px;
+    }
+
+    /* beneficio */
+
+    .beneficio {
+        width: 266px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* ******************** cabezera ******************** */
+
+    /* imagen del banner */
+
+    .banner-imagen {
+        background-image: url('imagenes/cabezera-md.png');
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* ******************** main ******************** */
+
+    main {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    /* ******************** paquetes exclusivos ******************** */
+
+    #paquetes-exclusivos {
+        margin-top: 28px;
+        width: 447px;
+
+        order: 1;
+        align-self: flex-start;
+
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .paquete1 {
+        width: 100%;
+    }
+
+    .paq1 {
+        width: 100%;
+    }
+
+    /* ******************** patrocinadores ******************** */
+
+    #patrocinadores {
+        order: 3;
+    }
+
+    /* ******************** aside ******************** */
+
+    aside {
+
+        margin-left: 23px;
+        margin-top: 80px;
+        width: 248px;
+
+        order: 2;
+        align-self: flex-start;
+    }
+
+    hr {
+        width: 248px;
+    }
+
+    /* beneficios */
+
+    .beneficio {
+        border: 0px solid white;
+        height: 87px;
+    }
+
+    .beneficio-izq,
+    .beneficio-der {
+        border-bottom: 1px solid white;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* ******************** cabezera ******************** */
+
+    /* imagen del banner */
+
+    .banner-imagen {
+        background-image: url('imagenes/cabezera-lg.png');
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* ******************** paquetes exclusivos ******************** */
+
+    #paquetes-exclusivos {
+
+        width: 588px;
+
+    }
+
+    /* ******************** aside ******************** */
+
+    aside {
+
+        width: 288px;
+    }
+
+
+}
